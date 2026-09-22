@@ -5,11 +5,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/theme/black.css">
 
 <style>
-.reveal .slides section img {
-  max-width: 90%;
-  max-height: 50%;
+.reveal img {
+  max-height: 700px;
   width: auto;
-  height: auto;
 }
 </style>
 
@@ -51,8 +49,12 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.js"></script>
     <script>
-      Reveal.initialize();
-    </script>
+Reveal.initialize({
+  width: 1200,
+  height: 800,
+  margin: 0.05
+});
+</script>
 <p>
   <a href="../journal_list.html">Journal一覧へ戻る</a>
 </p>
